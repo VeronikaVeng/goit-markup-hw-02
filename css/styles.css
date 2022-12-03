@@ -19,12 +19,14 @@ body {
 
 /* index.html */
 /* Header */
+.link {
+    text-decoration: none;
+}
+
 .header-logo {
     color: var(--dark);
-    text-decoration: none;
-
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.3;
     letter-spacing: 0.03em;
@@ -46,20 +48,18 @@ body {
 
 .site-nav .link {
     color: var(--dark);
-    text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--primary-brand);
+    color: var(--text);
 }
 
 .auth-nav .link {
     color: var(--text);
-    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 .hero-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.1;
     text-align: center;
@@ -88,7 +88,7 @@ body {
     background-color: var(--primary-brand);
     cursor:pointer;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.04em;
@@ -137,7 +137,6 @@ body {
 
 .footer-logo {
     color: var(--light);
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.2;
@@ -163,7 +162,7 @@ body {
     background-color: var(--accent);
     cursor: pointer;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -178,13 +177,9 @@ body {
 /* section cards */
 .cards {
     color: var(--dark);
-    text-decoration: none;
 }
 
-.cards:hover,
-.cards:focus {
-    color: var(--primary-brand);
-}
+
 
 
 
